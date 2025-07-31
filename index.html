@@ -1,8 +1,33 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Chrome Separator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Separator</title>
+    <link rel="prerender" href="horizontal.html">
+    <link rel="prerender" href="vertical.html">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a style="display:block; width: 100px; height: 100px; background-color: rgb(255, 77, 237); color: rgba(0,0,0,0);" href="horizontal.html">————————————————————</a>
-    <a style="display:block; width: 100px; height: 100px; background-color: rgb(193, 47, 255);" href="vertical.html"></a>
+    <div class="container">
+        <h1>Bookmark Separator</h1>
+        <p>You can create a Separator by dragging the box in Browser</p>
+        <a href="https://github.com/itsmingyuchoi/bookmark-separator">GitHub</a>
+        <div class="links">
+            <div class="card-wrapper">
+                <a id="horizontal-link" class="card" href="horizontal.html">
+                    <img src="preview_horizontal.png" alt="————————————————————">
+                    <span>————————————————————</span>
+                </a>
+                <div class="card-name">Horizontal</div>
+            </div>
+            <div class="card-wrapper">
+                <a id="vertical-link" class="card" href="vertical.html">
+                    <img src="favicon_vertical.png">
+                </a>
+                <div class="card-name">Vertical</div>
+            </div>
+        </div>
+    </div>
 </body>
+</html>

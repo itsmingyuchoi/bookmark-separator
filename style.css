@@ -1,0 +1,71 @@
+body {
+    font-family: "Pretendard", "Pretendard Varaible", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 24px;
+}
+a {
+    color: #5f72be;
+}
+.links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 32px;
+}
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+.card img {
+    width: 50px;
+    height: 50px;
+}
+#horizontal-link {
+    background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+}
+#vertical-link {
+    background: linear-gradient(135deg, #5f72be, #967bb6);
+}
+.card-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+.card span {
+    display: none;
+}
