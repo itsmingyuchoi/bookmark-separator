@@ -1,3 +1,3 @@
 <svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect y="480" width="1024" height="64" fill="white" fill-opacity="0.5" style="fill:white;fill-opacity:0.5;"/>
+<path d="M1024 480H0V544H1024V480Z" fill="#7F7F7F" style="fill:#7F7F7F;fill:color(display-p3 0.4980 0.4980 0.4980);fill-opacity:1;"/>
 </svg>
